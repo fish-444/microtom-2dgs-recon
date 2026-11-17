@@ -1,0 +1,11 @@
+# text files use LF in the repository; binary files are never converted
+* text=auto eol=lf
+*.npz binary
+*.ply binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.ipynb text eol=lf
+# bytes must stay exactly as recorded: the frozen code (its sha256 is checked) and the example data (MANIFEST.csv, EXPECTED.json)
+src/tomato3d/organs/pc_absorb.py -text
+example/** -text

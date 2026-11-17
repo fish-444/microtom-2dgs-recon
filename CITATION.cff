@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software or the R3-1b example, please cite it as below."
+title: "microtom-2dgs-recon: 2DGS reconstruction of a potted tomato plant on a ChArUco board and T-Prox compound-leaf labels"
+type: software
+authors:
+  - family-names: 서
+    given-names: 현우
+    affiliation: 경희대학교 스마트팜과학과
+  - family-names: 김
+    given-names: 민웅
+    affiliation: 경희대학교 스마트팜과학과
+  - family-names: 이
+    given-names: 주원
+    affiliation: 경희대학교 스마트팜과학과
+  - family-names: 최
+    given-names: 재임
+    affiliation: 경희대학교 스마트팜과학과
+repository-code: "https://github.com/fish-444/microtom-2dgs-recon"
+license: MIT
+date-released: 2026-11-18
+keywords:
+  - tomato
+  - 3D Gaussian splatting
+  - 2DGS
+  - ChArUco
+  - plant phenotyping
+  - compound leaf

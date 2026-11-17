@@ -1,0 +1,7 @@
+# Paths. The code finds the repository root by itself (src/tomato3d/paths.py); set the environment variable MICROTOM_ROOT to use another folder.
+# Run folders created by the steps live under <root>/build/ (not in git) and follow the relative names the modules already use.
+root: ${MICROTOM_ROOT}          # default: the repository folder
+example: example/r3-1b          # shipped example (pilot plant)
+photos: data/r3-1b/photos       # the 85 HEIC photos, see DATA.md (not in git)
+weights: data/weights           # SAM v5, M1 (not in git), see DATA.md
+kaggle_user: dolgfish           # the owner's Kaggle account name, used in kernel metadata of the PC-side scripts only
