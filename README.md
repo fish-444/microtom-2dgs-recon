@@ -68,7 +68,7 @@ DATA.md  THIRD_PARTY.md  CITATION.cff  LICENSE  LICENSE-CC-BY-4.0.md
 ## 라이선스, 제3자, 저자
 - 코드 MIT (`LICENSE`), 그림·표·문서·예시 자료 CC BY 4.0 (`LICENSE-CC-BY-4.0.md`).
 - gsplat 1.5.3, SAM 2 / `sam2==1.1.0`, pycolmap, OpenCV, **Ultralytics (AGPL-3.0, 후보 마스크 단계에서만 import)** 등은 가져오지 않고 참조합니다: `THIRD_PARTY.md`. VTC 파생 파일은 넣지 않았습니다.
-- 저자: 서현우, 김민웅, 이주원, 최재임 (경희대학교 스마트팜과학과). 인용: `CITATION.cff`.
+- 저자: 서현우 (경희대학교 스마트팜과학과). 인용: `CITATION.cff`.
 
 ## English summary
 Code and one worked example (the pilot plant "R3-1b") for reconstructing a potted tomato plant from photos taken on an A3 ChArUco board (2DGS surfels, camera poses from the board only, no SfM pose estimation)
